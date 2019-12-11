@@ -13,7 +13,7 @@ export default class Profile extends Component {
 	};
 
 	increment = () => {
-		this.setState({ count: this.state.count+1 });
+		this.setState({ count: this.state.count + 1 });
 	};
 
 	// gets called when this route is navigated to
